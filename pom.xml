@@ -13,13 +13,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit-jupiter.version>5.13.4</junit-jupiter.version>
-        <maven.compiler.release>8</maven.compiler.release>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>swisseph</groupId>
-            <artifactId>swe</artifactId>
+            <groupId>com.github.nithyasince96</groupId>
+            <artifactId>swe-java-lib</artifactId>
             <version>2.10.03j3d</version>
         </dependency>
 
@@ -65,4 +66,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <repositories>
+	 <repository>
+		 <id>jitpack.io</id>
+		 <url>https://www.jitpack.io</url>
+	 </repository>
+</repositories>
 </project>
