@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.github.Nithyasince96</groupId>
             <artifactId>swe-java-lib</artifactId>
-            <version>master-SNAPSHOT</version>
+            <version>2.10.03j3d</version>
         </dependency>
 
         <dependency>
